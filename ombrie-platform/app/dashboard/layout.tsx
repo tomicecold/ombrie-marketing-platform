@@ -14,6 +14,7 @@ export default async function DashboardLayout({ children }: { children: React.Re
         <nav className="space-y-1 text-sm flex-1">
           <Link href="/dashboard" className="block px-3 py-2 rounded hover:bg-white/10">Dashboard</Link>
           <Link href="/dashboard/marketing" className="block px-3 py-2 rounded hover:bg-white/10 bg-white/5 font-medium">✨ Marketing Live</Link>
+          <Link href="/dashboard/marketing/meta-full" className="block px-3 py-2 rounded hover:bg-white/10 text-white/90 text-xs ml-3">→ Meta Full Dashboard</Link>
           <div className="text-[10px] uppercase tracking-wider text-white/40 pt-4 pb-1 px-3">Verbindungen</div>
           <Link href="/dashboard/meta" className="block px-3 py-2 rounded hover:bg-white/10 text-white/80">Meta</Link>
           <Link href="/dashboard/tiktok" className="block px-3 py-2 rounded hover:bg-white/10 opacity-60">TikTok</Link>
