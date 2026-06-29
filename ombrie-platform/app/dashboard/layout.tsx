@@ -13,9 +13,12 @@ export default async function DashboardLayout({ children }: { children: React.Re
         <h2 className="text-xl font-bold mb-8">Ombrie</h2>
         <nav className="space-y-1 text-sm flex-1">
           <Link href="/dashboard" className="block px-3 py-2 rounded hover:bg-white/10">Dashboard</Link>
-          <Link href="/dashboard/meta" className="block px-3 py-2 rounded hover:bg-white/10">Meta Ads</Link>
-          <Link href="/dashboard/tiktok" className="block px-3 py-2 rounded hover:bg-white/10 opacity-60">TikTok Ads</Link>
-          <Link href="/dashboard/google" className="block px-3 py-2 rounded hover:bg-white/10 opacity-60">Google Ads</Link>
+          <Link href="/dashboard/marketing" className="block px-3 py-2 rounded hover:bg-white/10 bg-white/5 font-medium">✨ Marketing Live</Link>
+          <div className="text-[10px] uppercase tracking-wider text-white/40 pt-4 pb-1 px-3">Verbindungen</div>
+          <Link href="/dashboard/meta" className="block px-3 py-2 rounded hover:bg-white/10 text-white/80">Meta</Link>
+          <Link href="/dashboard/tiktok" className="block px-3 py-2 rounded hover:bg-white/10 opacity-60">TikTok</Link>
+          <Link href="/dashboard/google" className="block px-3 py-2 rounded hover:bg-white/10 opacity-60">Google</Link>
+          <div className="text-[10px] uppercase tracking-wider text-white/40 pt-4 pb-1 px-3">Admin</div>
           <Link href="/dashboard/users" className="block px-3 py-2 rounded hover:bg-white/10 opacity-60">Users</Link>
         </nav>
         <div className="text-xs text-white/60 border-t border-white/10 pt-4">
