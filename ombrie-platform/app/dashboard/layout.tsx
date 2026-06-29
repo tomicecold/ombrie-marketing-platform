@@ -13,7 +13,7 @@ export default async function DashboardLayout({ children }: { children: React.Re
         <h2 className="text-xl font-bold mb-8">Ombrie</h2>
         <nav className="space-y-1 text-sm flex-1">
           <Link href="/dashboard" className="block px-3 py-2 rounded hover:bg-white/10">Dashboard</Link>
-          <Link href="/dashboard/meta" className="block px-3 py-2 rounded hover:bg-white/10 opacity-60">Meta Ads</Link>
+          <Link href="/dashboard/meta" className="block px-3 py-2 rounded hover:bg-white/10">Meta Ads</Link>
           <Link href="/dashboard/tiktok" className="block px-3 py-2 rounded hover:bg-white/10 opacity-60">TikTok Ads</Link>
           <Link href="/dashboard/google" className="block px-3 py-2 rounded hover:bg-white/10 opacity-60">Google Ads</Link>
           <Link href="/dashboard/users" className="block px-3 py-2 rounded hover:bg-white/10 opacity-60">Users</Link>
