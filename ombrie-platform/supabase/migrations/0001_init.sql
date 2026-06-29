@@ -1,0 +1,2 @@
+-- See live migration applied via Supabase SQL editor
+-- profiles + ad_connections + is_admin() + RLS policies
